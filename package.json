@@ -1,0 +1,18 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-dashboard-run":  "npx cypress run --record --key=89155c70-178f-4c08-9c55-8454900c7815"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "xpath": "^0.0.34"
+  }
+}
